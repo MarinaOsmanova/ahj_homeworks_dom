@@ -1,1 +1,4 @@
-console.log('it works!');
+import GamePlay from './GamePlay';
+
+const gamePlay = new GamePlay();
+gamePlay.init();
