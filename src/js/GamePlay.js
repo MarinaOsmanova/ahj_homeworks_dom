@@ -1,3 +1,4 @@
+import img from '../img/goblin.png';
 export default class GamePlay {
   constructor() {
     this.boardSize = 4;
@@ -21,7 +22,7 @@ export default class GamePlay {
 
   createCharacter() {
     this.character = document.createElement('img');
-    this.character.src = 'src/img/goblin.png';
+    this.character.src = img;
   }
 
   showCharacter() {
