@@ -1,4 +1,5 @@
 import img from '../img/goblin.png';
+
 export default class GamePlay {
   constructor() {
     this.boardSize = 4;
